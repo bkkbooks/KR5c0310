@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0310/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0310/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 修煉大丹要旨
+  date: '2015-08-29 00:55:52.535706'
+  source:
+    repository: kanripo
+    path: KR5c0310
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0310_000-ZTDZ.yaml, hash: 'sha256:0a3ebdfdc7f3742689acc8a9d7f03f5b7c630ab346e0eb199d63a1da8bfce7d9'}
+  - {seq: 1, filename: KR5c0310_001-ZTDZ.yaml, hash: 'sha256:f4f952af696f5feed010e989dd78f4c586aad81218ac600308e6a6096330e346'}
+  - {seq: 2, filename: KR5c0310_002-ZTDZ.yaml, hash: 'sha256:a64be34c1aa9870cd2eff1f3718c0de49c032226faa27f320e6a744784fc14c4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0310_000-ZTDZ.markers.yaml, hash: 'sha256:a5eec587624ef585de0d234f39d85c62b62210b2a0ee3f796759e6022fdc2994'}
+  - {seq: 1, role: markers, filename: assets/KR5c0310_001-ZTDZ.markers.yaml, hash: 'sha256:6860c0dce8ae570360a4db0acaccba7ddada3f335c25d5afc48fbe9866cc4b11'}
+  - {seq: 2, role: markers, filename: assets/KR5c0310_002-ZTDZ.markers.yaml, hash: 'sha256:fba62aef141a2002340f61e4103db4ba0f6f8d632c33938849ddd851c4fb0f9b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0310_SJB_001-190137b
+    span:
+    - body
+    - 0
+    - 7590
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0310_SJB_002-190146a
+    span:
+    - body
+    - 0
+    - 3288
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:c9d39662ad46be5c5807d4900f7eac37cf42b7f7b001c4003549ff34d0b24126

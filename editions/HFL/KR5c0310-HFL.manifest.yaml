@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5c0310/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0310/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 修煉大丹要旨
+  date: '2015-08-29 00:55:52.535706'
+  source:
+    repository: kanripo
+    path: KR5c0310
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0310_000-HFL.yaml, hash: 'sha256:40b8d5d43593ff8f8a201a8b221e4a224e76ba54168c872003bff03a7af47053'}
+  - {seq: 1, filename: KR5c0310_001-HFL.yaml, hash: 'sha256:629880b57046cb36f4006c9e4bb5a2baa2908e1ab2cdcb62eddf3820b8fbc004'}
+  - {seq: 2, filename: KR5c0310_002-HFL.yaml, hash: 'sha256:e8a2db53a0b40af72117e661ffa6e772ecce3e6f4949c9e45c9748e143875b2f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0310_001-HFL.markers.yaml, hash: 'sha256:b9964cac3052e8be49919dced8be0ed2ab8575279baf1abc8a788dd14ce6f8b4'}
+  - {seq: 2, role: markers, filename: assets/KR5c0310_002-HFL.markers.yaml, hash: 'sha256:e64899841032d68b59428f581090dd4b71b14cf03b784f08de6ad97f4940ef95'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0310_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 7590
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0310_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 3288
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:667e0292222a627baf4edb172db5bcc2eec419403cbd4819f454de7f68d8e3b7
